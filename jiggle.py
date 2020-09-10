@@ -1,6 +1,5 @@
 #!/usr/bin/python
-
-# Above allows it to run from terminal w/o needing to type full path 
+# Above allows it to run from terminal by simply typing `jiggle.py`
 
 from pynput.mouse import Button, Controller
 import time
