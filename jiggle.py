@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # Above allows it to run from terminal by simply typing `jiggle.py`
+# You may need to change the path on line 1 to account for where Python is installed on your system
+# Type `which python` in the terminal to find out the correct path you need to use
 
 from pynput.mouse import Button, Controller
 import time
