@@ -9,13 +9,11 @@ import time
 mouse = Controller()
 
 # Read pointer position
-print('The current pointer position is {0}'.format(
-  mouse.position))
+print('Jiggle script started')
 
 # Set pointer position
 mouse.position = (0, 10)
-print('Now we have moved it to {0}'.format(
-   mouse.position))
+print('Cursor moved to top-left portion of screen')
 
 # Move pointer relative to current position every 10 min
 def jiggle():
@@ -30,5 +28,3 @@ delay = 60 * minutes
 while True:
   jiggle()
   time.sleep(delay - ((time.time() - starttime) % delay))
- 
-
